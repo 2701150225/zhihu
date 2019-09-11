@@ -44,7 +44,7 @@ public class UserService {
 
 	private static final String WEIBO_APP_KEY = "1265689257";
 	private static final String WEIBO_APP_SECRET = "fa8d06210bcdc6eca5bd78fc25f59352";
-	private static final String REDIRECT_URL = "http://127.0.0.1/weiboLogin";
+	private static final String REDIRECT_URL = "http://www.wangkun.xyz/weiboLogin";
 
 	@Autowired
 	private UserMapper userMapper;
