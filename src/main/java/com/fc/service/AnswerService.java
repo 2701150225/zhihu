@@ -142,7 +142,7 @@ public class AnswerService {
 		System.out.println("today:" + today);
 		System.out.println("today - period:" + (today - period));
 		System.out.println(new Date(today - period));
-		List<Answer> answerList = answerMapper.listAnswerByCreateTime(today - period);
+		List<Answer> answerList = answerMapper.listAnswerByCreateTime(0);
 		map.put("answerList", answerList);
 		return map;
 	}

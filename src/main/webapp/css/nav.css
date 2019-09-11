@@ -1,7 +1,7 @@
 ﻿/*导航条部分*/
 .nav{
 	height: 45px;
-	background: linear-gradient(to bottom,#086ed5,#055db5);
+	background: linear-gradient(to bottom,#2bda95,#05b5b0);
 	border-bottom: 1px solid #044e97;
 	margin-bottom: 25px;
 	margin-top: -21px;
@@ -56,7 +56,7 @@
 	right: 0;
 	width: 40px;
 	height: 33px;
-	background: #0e78e7;
+	background: #000000;
 	border: 1px solid #045bb2;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
@@ -175,7 +175,7 @@
     margin-top: 7px;
     border: 1px solid #045bb2;
     border-radius: 4px;
-    background: linear-gradient(to bottom,#0e7bef,#0d73da);
+    background: linear-gradient(to bottom,#555d65,#121212);
     box-shadow: 0 1px 2px rgba(0,0,0,.05), inset 0 1px 1px rgba(255,255,255,.15);
     color: #fff;
     font-size: 14px;
