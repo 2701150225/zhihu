@@ -142,6 +142,8 @@ public class UserController {
 
 		} catch (QQConnectException e) {
 	//		logger.error("跳转到回调地址失败:", e);
+			//https://github.com/ChenLaiHong/QQ_Login
+			//https://blog.csdn.net/weixin_37762923/article/details/93597061
 			return "fail";
 		}
 		return "index";
