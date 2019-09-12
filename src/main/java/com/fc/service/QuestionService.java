@@ -104,9 +104,9 @@ public class QuestionService {
 			followedUserList = userMapper.listUserInfoByUserId(userIdList);
 		}
 
-		// 获取5个该话题下的问题
-		List<Question> relatedQuestionList = questionMapper.listRelatedQuestion(questionId);
-		System.out.println("relatedQuestionList:" + relatedQuestionList);
+//		// 获取5个该话题下的问题
+//		List<Question> relatedQuestionList = questionMapper.listRelatedQuestion(questionId);
+//		System.out.println("relatedQuestionList:" + relatedQuestionList);
 
 		// 获取提问用户信息
 		User askUser = userMapper.selectUserInfoByUserId(question.getUserId());
@@ -162,7 +162,7 @@ public class QuestionService {
 		map.put("question", question);
 		map.put("answerList", answerList);
 		map.put("followedUserList", followedUserList);
-		map.put("relatedQuestionList", relatedQuestionList);
+//		map.put("relatedQuestionList", relatedQuestionList);
 		jedisPool.returnResource(jedis);
 		return map;
 	}
